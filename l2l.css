@@ -1,0 +1,25 @@
+html {
+  font-family: 'Special Elite', cursive;
+  background-image: url("creek2.jpg");
+  background-size: cover;
+  color: rgba(224, 226, 219, 1);
+  text-shadow: 2px 2px 8px black;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+a {
+  color: rgba(224, 226, 219, 1);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 150vh;
+}

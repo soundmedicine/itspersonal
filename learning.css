@@ -1,0 +1,63 @@
+html {
+  font-family: 'Special Elite', cursive;
+  background-image: url("lakewood1.jpg");
+  background-size: cover;
+  color: rgba(224, 226, 219, 1);
+  text-shadow: 2px 2px 8px black;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+ul {
+  font-size: 20px;
+  width: 80vh;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: rgba(224, 226, 219, 1);
+}
+
+.nav {
+  font-size: 20px;
+  width: 40vh;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 75vh;
+}
+
+footer {
+  margin-left: 45px;
+}
